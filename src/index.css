@@ -1,0 +1,36 @@
+.font_style, .font_style *{
+  font-size: 2rem;
+}
+
+.result{
+  display: float;
+  float: right;    
+  color: black;
+  position: fixed;
+  top: 10%;
+  right: 3vw;
+}
+
+
+
+.bottom{
+  position: fixed;
+  top: 30vh;
+}
+.elements{
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+}
+.number{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.operator{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+button{
+  width: 24vw;
+  height: 100%;
+}

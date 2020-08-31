@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="./index.css">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="top">
+      <div class="result font_style">1000</div>
+    </div>
+
+    <div class="bottom">
+      <div class="elements">
+        <div class="number font_style">
+          
+          <div>
+            <button>7</button>
+          </div>
+          
+          <div>
+            <button>8</button>
+          </div>
+          
+          <div>
+            <button>9</button>
+          </div>
+          
+          <div>
+            <button>4</button>
+          </div>
+          
+          <div>
+            <button>5</button>
+          </div>
+          
+          <div>
+            <button>6</button>
+          </div>
+          
+          <div>
+            <button>1</button>
+          </div>
+          
+          <div>
+            <button>2</button>
+          </div>
+          
+          <div>
+            <button>3</button>
+          </div>
+
+          <div>
+            <button>0</button>
+          </div>
+          
+          <div>
+            <button>.</button>
+          </div>
+          
+        </div>
+        
+        <div class="operator font_style">
+          <div>
+            <button>+</button>
+          </div>
+          <div>
+            <button>-</button>
+          </div>
+          <div>
+            <button>*</button>
+          </div>
+          <div>
+            <button>/</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
